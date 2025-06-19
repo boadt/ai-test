@@ -81,14 +81,4 @@ LLM(대형 언어 모델) 실험을 시작할 때 맨 먼저 부딪히는 질문
 * **오프라인·민감 데이터** : GPU ≥ 8 GB가 있을 때 **로컬 모델**로도 실험 가능.
 * 두 경로를 모두 문서화해, 필요에 따라 선택적으로 사용한다.
 
-
----
-
-\### Git 커밋 가이드
-
-```bash
-git checkout -b docs/ep0-report
-git add ai/00-basic-llm/Ep0_README.md
-git commit -m "docs(ep0): 로컬 vs API 기술 보고서 (한글)"
-git push -u origin docs/ep0-report
 ```
